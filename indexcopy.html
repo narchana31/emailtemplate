@@ -1,0 +1,1743 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <style>
+        
+        /* img{
+            max-width: 100%;
+            height: auto;
+        }   */
+        @font-face {
+      font-family:'Dacia Block';
+      src:    url(https://cdn.group.renault.com/fonts/dacia/DaciaBlock-Regular.eot) format('eot'),
+      url(https://cdn.group.renault.com/fonts/dacia/DaciaBlock-Regular.woff2) format('woff2'),
+      url(https://cdn.group.renault.com/fonts/dacia/DaciaBlock-Regular.woff) format('woff'),
+      url(https://cdn.group.renault.com/fonts/dacia/DaciaBlock-Regular.ttf) format('truetype');
+      font-weight: 400;
+      font-style: normal;
+    }
+    @font-face {
+      font-family:'Dacia Block';
+      src:    url(https://cdn.group.renault.com/fonts/dacia/DaciaBlock-Bold.eot) format('eot'),
+      url(https://cdn.group.renault.com/fonts/dacia/DaciaBlock-Bold.woff2) format('woff2'),
+      url(https://cdn.group.renault.com/fonts/dacia/DaciaBlock-Bold.woff) format('woff'),
+      url(https://cdn.group.renault.com/fonts/dacia/DaciaBlock-Bold.ttf) format('truetype');
+      font-weight: 700;
+      font-style: normal;
+    }
+    @font-face {
+      font-family:'Read';
+      src:    url(https://cdn.group.renault.com/fonts/dacia/Read-Regular_V1100.eot) format('eot'),
+      url(https://cdn.group.renault.com/fonts/dacia/Read-Regular_V1100.woff2) format('woff2'),
+      url(https://cdn.group.renault.com/fonts/dacia/Read-Regular_V1100.woff) format('woff'),
+      url(https://cdn.group.renault.com/fonts/dacia/Read-Regular_V1100.ttf) format('truetype');
+      font-weight: 400;
+      font-style: normal;
+    }
+    @font-face {
+      font-family:'Read';
+      src:    url(https://cdn.group.renault.com/fonts/dacia/Read-Bold_V1100.eot) format('eot'),
+      url(https://cdn.group.renault.com/fonts/dacia/Read-Bold_V1100.woff2) format('woff2'),
+      url(https://cdn.group.renault.com/fonts/dacia/Read-Bold_V1100.woff) format('woff'),
+      url(https://cdn.group.renault.com/fonts/dacia/Read-Bold_V1100.ttf) format('truetype');
+      font-weight: 700;
+      font-style: normal;
+    }
+        #main_table {
+        width: 640px !important;
+        margin: 0 auto;
+        }
+        @media only screen and (max-width: 639px) {
+        #main_table {
+        width: 100% !important;
+        margin: 0 auto;
+        }
+        .image-width {
+        width: 100% !important;
+        height: auto !important;
+        display: block;
+        max-width: 640px;
+        }
+        .image_width1 {
+        width: 50% !important;
+        height: auto !important;
+        display: block;
+        }
+        .table_full {
+        width: 100% !important;
+        height: auto !important;
+        }
+        .full-width1 {
+        width: 100% !important;
+        height: auto !important;
+        }
+        #small_table{
+            width: 47% !important;
+        }
+        .footer_table{
+           width:6% !important;
+        }
+         .footer_table_full{
+           width:90% !important;
+        }
+        }
+        /*IPHONE STYLES*/
+        @media only screen and (max-width: 550px) {
+        .image_width1 {
+        width: 50% !important;
+        height: auto !important;
+        display: block;
+        }
+        .image-width {
+        width: 100% !important;
+        height: auto !important;
+        display: block;
+        max-width: 640px;
+        }
+        .table_full {
+        width: 100% !important;
+        height: auto !important;
+        }
+        }
+        @media only screen and (max-width: 480px) {
+        .image_width1 {
+        width: 60% !important;
+        height: auto !important;
+        display: block;
+        text-align: center;
+        }
+        .image-width {
+        width: 100% !important;
+        height: auto !important;
+        display: block;
+        max-width: 640px;
+        }
+        .table_full {
+        width: 100% !important;
+        height: auto !important;
+        }
+         #small_table{
+            width: 47% !important;
+        }
+        .footer_table{
+           width:6% !important;
+        }
+         .footer_table_full{
+           width:90% !important;
+        }
+        .padmob{
+            padding: 0 15px;
+        }
+        .padbot{
+            padding-bottom: 20px;
+        }
+        }
+        @media (max-width:555px) {
+    .table-full {
+        width: 100% !important
+    }
+      .image-width_50 {
+    width: 70% !important;
+    height: auto !important;
+    display: block;
+}
+      .img_size{
+      font-size: 16px !important;
+      }
+    .mob_center table {
+        margin: 0 auto
+    }
+    .image_wid table td {
+        width: 100% !important
+    }
+    .res1 {
+        width: 100% !important;
+        text-align: center !important
+    }
+    .image-width1 {
+        width: 100% !important;
+        height: auto !important;
+        display: block
+    }
+    .space {
+        display: none !important
+    }
+      .em_clear {
+    clear: both !important;
+    width: 100% !important;
+    display: block !important;
+}}
+        @media only screen and (max-width: 560px) {
+        .image_width1 {
+        width: 60% !important;
+        height: auto !important;
+        display: block;
+        text-align: center;
+        }
+        .image-width {
+        width: 100% !important;
+        height: auto !important;
+        display: block;
+        }
+        .table_full {
+        width: 100% !important;
+        height: auto !important;
+        }
+        }
+        @media only screen and (max-width: 480px) {
+        .image_width {
+        width: 100% !important;
+        height: auto !important;
+        display: block;
+        }
+        .table_full {
+        width: 100% !important;
+        height: auto !important;
+        }
+        .image_width1 {
+        width: 60% !important;
+        height: auto !important;
+        display: block;
+        text-align: center;
+        }
+         #small_table{
+            width: 47% !important;
+        }
+        .footer_table{
+           width:6% !important;
+        }
+         .footer_table_full{
+           width:90% !important;
+        }
+        }
+        @media only screen and (max-width: 365px) {
+        .image_width1 {
+        width: 60% !important;
+        height: auto !important;
+        display: block;
+        text-align: center;
+        }
+        .image_width {
+        width: 640px !important;
+        height: auto !important;
+        display: block;
+        }
+        .table_full {
+        width: 100% !important;
+        height: auto !important;
+        }
+         #small_table{
+            width: 47% !important;
+        }
+        .footer_table{
+           width:6% !important;
+        }
+         .footer_table_full{
+           width:90% !important;
+        }
+        }
+         @media only screen and (min-width: 320px) and (max-width: 767px) {
+        .jan-footer{
+           text-align:center;
+        }
+         .jan-footer img{
+         display: block;
+           margin-left: auto;
+           margin-right: auto;
+           width: 100%;
+        }
+        .icon_text{
+            width:85% !important;
+            /* text-align:right; */
+        }
+        .res1{
+           font-size:10px !important;
+        }
+         .table_icon{
+           width:5%;
+
+        }
+        .table_icon_new{
+           width:90%;
+
+        }
+        
+        
+        }
+         @media only screen and (min-width: 351px) and (max-width: 569px) {
+       
+         #small_table{
+            width: 55% !important;
+        }
+        .footer_table{
+           width:6% !important;
+        }
+         .footer_table_full{
+           width:90% !important;
+        }
+        }
+         @media only screen and (min-width: 320px) and (max-width: 350px) {
+       
+         #small_table{
+            width: 63% !important;
+        }
+        .footer_table{
+           width:6% !important;
+        }
+         .footer_table_full{
+           width:90% !important;
+        }
+        .table_icon{
+           width:5%;
+
+        }
+        .table_icon_new{
+           width:90%;
+
+        }
+        }
+        
+        @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+        .image_width1 {
+        width: 50% !important;
+        height: auto !important;
+        display: block;
+        }
+        .image-width  {
+        width: 100% !important;
+        height: auto !important;
+        display: block;
+        }
+        .res1{
+           font-size:13px !important;
+        }
+        }
+        @media only screen and (min-width: 768px) and (max-width: 1366px) {
+        
+        .res1{
+           font-size:13px !important;
+        }
+        }
+         @media only screen and (min-width: 360px) and (max-width: 1366px) and (orientation: landscape) {
+        
+        .res1{
+           font-size:13px !important;
+        }
+        }
+         @media only screen and (min-width: 768px) and (max-width: 1366px) and (orientation: landscape) {
+        
+        .res1{
+           font-size:13px !important;
+        }
+        }
+        .mobimage{
+            display: none !important;
+        }
+        @media(max-width:320px){
+            .mobimage{
+                display: block !important;
+            }
+            .deskimage{
+                display: none !important;
+            }
+        }
+     </style>
+</head>
+
+<body class="content_div"
+    style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;;margin:0;padding:0;width:100% !important;">
+    <div class="scroll-div">
+        <div class="inner_scroll" style="background:#ffffff">
+            <!-- main table starts here -->
+            <table width="100%" bgcolor="#ffffff" align="center" cellpadding="0" cellspacing="0" border="0"
+                style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;margin:0;padding:0;width:100% !important;line-height:100% !important;">
+                <tbody>
+                    <tr>
+                        <td class="mob_padding">
+                            <table width="100%" bgcolor="#efefef" align="center" cellpadding="0" cellspacing="0"
+                                border="0"
+                                style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;margin:0;padding:0;width:100% !important;line-height:100% !important">
+                                <tbody>
+                                    <tr>
+                                        <td style="-webkit-text-size-adjust:none;border-collapse:collapse">
+                                            <table width="640" id="main_table" cellpadding="0" bgcolor="#ffffff"
+                                                cellspacing="0" border="0" align="center" class="devicewidth"
+                                                style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+                                                <!-- banner start here -->
+                                                <tbody>
+                                                    <tr>
+                                                        <td width="100%" valign="top">
+                                                            <table width="100%" cellspacing="0" cellpadding="0"
+                                                                border="0"
+                                                                style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td
+                                                                            style="display:none;font-size: 0px !important; color:#ffffff !important;font-family: Read, Arial !important;line-height:0;visibility:none;">
+                                                                            &zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td valign="top" height="20"
+                                                                            class="height"></td>
+
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td style="background-color: #ffffff;"
+                                                                            bgcolor="#ffffff" align="center">
+                                                                            <a href="#"
+                                                                                style="border: none;pointer-events: none;text-decoration: none;  cursor:default !important;display:inline-block;margin: 0px;padding: 0px;line-height: 0;">
+                                                                                
+                                                                                    <img src="images/dacia_logo.png" 
+                                                                                    style="border:0;display:block;outline:none;text-decoration:none;height:auto;width: 250px"
+                                                                                    width="" class="image-width"
+                                                                                    alt="banner">
+                                                                            </a>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td valign="top" height="20"
+                                                                            class="height"></td>
+
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td style="background-color: #ffffff;"
+                                                                            bgcolor="#ffffff">
+                                                                            <a href="#"
+                                                                                style="border: none;pointer-events: none;text-decoration: none;  cursor:default !important;display:inline-block;margin: 0px;padding: 0px;line-height: 0;">
+                                                                                <img src="images/bannerdesk.gif" 
+                                                                                    style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:640px;"
+                                                                                    width="640" class="image-width deskimage"
+                                                                                    alt="banner">
+                                                                                    <img src="images/bannermob.gif" 
+                                                                                    style="border:0;display:block;outline:none;text-decoration:none;height:auto;width: 100%"
+                                                                                    width="" class="image-width mobimage"
+                                                                                    alt="banner">
+                                                                            </a>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <tr style="background-color: #ffffff;" bgcolor="#ffffff">
+                                                        <td valign="top" width="100%" style="background-color: #ffffff;"
+                                                            bgcolor="#ffffff">
+                                                            <table width="100%" cellspacing="0" cellpadding="0"
+                                                                border="0" bgcolor="#ffffff"
+                                                                style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;background-color: #ffffff;">
+                                                                <tbody style="background-color: #ffffff;"
+                                                                    bgcolor="#ffffff">
+                                                                    <tr style="background-color: #ffffff;"
+                                                                        bgcolor="#ffffff">
+                                                                        <td valign="top" width="3%">&nbsp;</td>
+                                                                        <td valign="top" width="94%">
+                                                                            <table width="100%" cellspacing="0"
+                                                                                cellpadding="0" border="0"
+                                                                                style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td valign="top" height="20"
+                                                                                            class="height"></td>
+
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td width="100%" valign="top"
+                                                                                            style="font-family: Dacia Block, Arial !important;font-size:32px;color:#000000;line-height:36px;text-align: center;font-weight: 700;">
+                                                                                            NOUVELLE DACIA SPRING <br/>
+                                                                                            100% ÉLECTRIQUE 
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td width="100%" valign="top"
+                                                                                            style="font-family: Dacia Block, Arial !important;font-size:32px;color:#646b52;line-height:36px;text-align: center;font-weight: 700;">
+                                                                                            
+                                                                                            NOUVEAU MOTEUR 65 CH, NOUVEAU LOOK <br/>
+                                                                                            TOUJOURS À PRIX DACIA !
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td valign="top" height="20"
+                                                                                            class="height"></td>
+
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td width="100%" valign="top"
+                                                                                            style="font-family: Read, Arial !important;font-size:16px;color:#000000;line-height:20px; text-align: center;">
+                                                                                            Bonjour [Prénom],
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td valign="top" height="20"
+                                                                                            class="height"></td>
+
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td width="100%" valign="top"
+                                                                                            style="font-family: Read, Arial !important;font-size:16px;color:#000000;line-height:20px; text-align: center;">
+                                                                                            À la recherche d’un second véhicule qui facilitera vos déplacements et augmentera votre plaisir de conduite ? C’est le moment de passer à l’électrique !
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td valign="top" height="20"
+                                                                                            class="height"></td>
+
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td width="100%" valign="top"
+                                                                                            style="font-family: Read, Arial !important;font-size:16px;color:#000000;line-height:20px; text-align: center;">
+                                                                                            Découvrez, sans attendre, Dacia Spring Extreme <br/>avec <strong>son moteur 100% électrique 65 ch, son nouveau look outdoor* et son autonomie jusqu’à 305 km<span style="font-size:10px;line-height:11px; vertical-align:7px;">(1)</span> !</strong>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td valign="top" height="20"
+                                                                                            class="height"></td>
+
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td width="100%" valign="top"
+                                                                                            style="font-family: Read, Arial !important;font-size:16px;color:#000000;line-height:20px; text-align: center;">
+                                                                                            Commandez-la dès maintenant pour être parmi les premiers à vivre l’expérience Dacia Spring Extreme.
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td valign="top" height="20"
+                                                                                            class="height"></td>
+
+                                                                                    </tr>
+                                                                                    
+                                                                                     <tr>
+                                                                                        <td width="100%" valign="top" align="left"
+                                                                                           style="font-family: Read, Arial;">
+                                                                                           <table cellpadding="0" cellmargin="0" align="center"
+                                                                                              border="0" height="50" width="280"
+                                                                                              style="border-collapse: collapse; border: none !important; "
+                                                                                              class="btn1">
+                                                                                              <!--width: 56%!important;-->
+                                                                                              <tbody>
+                                                                                                 <tr>
+
+                                                                                                    <td bgcolor="#646b52"
+                                                                                                       valign="middle"
+                                                                                                       align="center" height="50" >
+                                                                                                       <!-- width="174"-->
+                                                                                                       <div
+                                                                                                          style="font-size: 16px; color: #ffffff; line-height: 20px; margin: 0; padding: 0; ">
+                                                                                                          <a href="https://www.dacia.fr/"
+                                                                                                             target="_blank"
+                                                                                                             style="text-decoration:none !important; text-decoration:none; color: #ffffff; border: 0;outline: none!important; color: white;font-family: Read , Arial; font-weight: bold;"
+                                                                                                             border="0"><span
+                                                                                                                class="blank"
+                                                                                                                style="text-decoration:none !important;">DÉCOUVRIR SPRING EXTREME</span></a>
+                                                                                                       </div>
+                                                                                                    </td>
+                                                                                                 </tr>
+                                                                                              </tbody>
+                                                                                           </table>
+          
+                                                                                        </td>
+                                                                                     </tr>
+                                                                                    
+                                                                                     <tr>
+                                                                                        <td valign="top" height="20"
+                                                                                            class="height"></td>
+
+                                                                                    </tr>
+
+                                                                                </tbody>
+                                                                            </table>
+
+                                                                        </td>
+                                                                        <td width="3%" valign="top">
+                                                                            &nbsp;
+
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+
+                                                        </td>
+                                                    </tr>
+                                                    <!-- first section starting -->
+                                                    <tr>
+                                                        <td width="100%" valign="top" style="line-height: 0;">
+                                                            <table width="100%" cellspacing="0" cellpadding="0"
+                                                                border="0"
+                                                                style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+                                                                <tbody>
+                                                                    
+                                                                    <tr>
+                                                                        <td style="background-color: #ffffff;"
+                                                                            bgcolor="#ffffff">
+                                                                            <a href="#"
+                                                                                style="border: none;pointer-events: none;text-decoration: none;  cursor:default !important;display:inline-block;margin: 0px;padding: 0px;line-height: 0;">
+                                                                                <img src="images/banneradesk.jpg" 
+                                                                                    style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:640px;"
+                                                                                    width="640" class="image-width"
+                                                                                    alt="banner">
+                                                                                   
+                                                                            </a>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <tr style="background-color: #FFFFFF;"
+                                    bgcolor="#FFFFFF">
+                                    <td valign="top" width="100%">
+                                        <table width="100%" cellspacing="0"
+                                            cellpadding="0" border="0"
+                                            style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+                                            <tbody>
+                                                <tr>
+                                                    <td valign="middle" width="50%"
+                                                    align="center" class="em_clear"
+                                                    style="">
+                                                    <table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff"
+              style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;background-color: #ffffff;">
+              <tbody>
+               
+                <tr>
+                  <td align="center" valign="middle" ><a href="#" target="_blank"
+                      style="border: none;text-decoration: none; display:inline-block;outline:none!important;"><img
+                        src="images/uspa.jpg" alt="" width="100%"
+                        style="border:0;display:block;outline:none;text-decoration:none;width: 100%;"
+                        class="image-width1"></a></td>
+                </tr>
+                
+              </tbody>
+            </table>
+                                                   
+                                                </td> 
+                                                
+                                                
+                                                    <td valign="middle" width="50%" bgcolor="#f2f2f2"
+                                                        align="left" class="em_clear">
+                                                        <table width="100%"
+                                                            cellpadding="0"
+                                                            cellspacing="0" border="0" style="padding: 0 20px;">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td valign="top" height="19"
+                                                                        class="height"></td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                    <td width="100%" valign="top"
+                                                                        style="font-family: Dacia Block, Arial !important;font-size:22px;color:#000000;line-height:26px;font-weight: 700;">
+                                                                        PARÉE POUR <span style="color: #646b52;">L’AVENTURE URBAINE</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td valign="top" height="14"
+                                                                        class="height"></td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                    <td width="100%" valign="top"
+                                                                        style="font-family: Read, Arial !important;font-size:16px;color:#333333;line-height:20px;">
+                                                                        Avec sa sellerie facile d’entretien, ses tapis et seuils de porte spécifiques ainsi que son système de navigation Media Nav, Spring Extreme est prête à vous accompagner au quotidien !
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td valign="top" height="14"
+                                                                        class="height"></td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                    <td width="100%" valign="top" align="left"
+                                                                       style="font-family: Read, Arial;font-size:16px;line-height:20px;">
+
+
+                                                                      
+                                                                       <table cellpadding="0" cellmargin="0" align="center"
+                                                                          border="0" height="50" width="220"
+                                                                          style="border-collapse: collapse; border: none !important; "
+                                                                          class="btn1">
+                                                                         
+                                                                          <tbody>
+                                                                             <tr>
+
+                                                                                <td bgcolor="#ffffff"
+                                                                                   valign="middle"
+                                                                                   align="center" height="50" style="border: 2px solid #646b52;">
+                                                                                   
+                                                                                   <div
+                                                                                      style="font-size: 16px; color: #646b52; line-height: 20px; margin: 0; padding: 0; ">
+                                                                                      <a href="https://www.dacia.fr/"
+                                                                                         target="_blank"
+                                                                                         style="text-decoration:none !important;  color: #646b52; border: 0;outline: none!important;font-family: Read, Arial; font-weight: bold;" border="0">
+                                                                                         <span class="blank"
+                                                                                            style="text-decoration:none !important;">DÉCOUVRIR</span></a>
+                                                                                   </div>
+                                                                                </td>
+                                                                             </tr>
+                                                                          </tbody>
+                                                                       </table>
+
+                                                                    </td>
+                                                                 </tr>
+                                                                <tr>
+                                                                    <td valign="top" height="19"
+                                                                        class="height"></td>
+
+                                                                </tr>
+                                                               
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                    
+                                                    <!-- <td valign="top" width="2%"
+                                                    align="top" class="em_clear" height="25">
+                                                </td> -->
+                                                </tr>
+                                                
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <!-- first section ending -->
+                                <tr>
+                                    <td valign="top" height="30"
+                                        class="height"></td>
+
+                                </tr>
+                                 <!-- 2nd section starting -->
+                                 <tr>
+                                    <td width="100%" valign="top" style="line-height: 0;">
+                                        <table width="100%" cellspacing="0" cellpadding="0"
+                                            border="0"
+                                            style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+                                            <tbody>
+                                                
+                                                <tr>
+                                                    <td style="background-color: #ffffff;"
+                                                        bgcolor="#ffffff">
+                                                        <a href="#"
+                                                            style="border: none;pointer-events: none;text-decoration: none;  cursor:default !important;display:inline-block;margin: 0px;padding: 0px;line-height: 0;">
+                                                            <img src="images/uspbdesk.jpg" 
+                                                                style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:640px;"
+                                                                width="640" class="image-width"
+                                                                alt="banner">
+                                                               
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr style="background-color: #FFFFFF;"
+                bgcolor="#FFFFFF">
+                <td valign="top" width="100%">
+                    <table width="100%" cellspacing="0"
+                        cellpadding="0" border="0"
+                        style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+                        <tbody>
+                            <tr>
+                                <td valign="middle" width="50%"
+                                align="center" class="em_clear"
+                                style="">
+                                <table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff"
+style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;background-color: #ffffff;">
+<tbody>
+
+<tr>
+<td align="center" valign="middle" ><a href="#" target="_blank"
+  style="border: none;text-decoration: none; display:inline-block;outline:none!important;"><img
+    src="images/uspc.jpg" alt="" width="100%"
+    style="border:0;display:block;outline:none;text-decoration:none;width: 100%;"
+    class="image-width1"></a></td>
+</tr>
+
+</tbody>
+</table>
+                               
+                            </td> 
+                            
+                            
+                                <td valign="middle" width="50%" bgcolor="#f2f2f2"
+                                    align="left" class="em_clear">
+                                    <table width="100%"
+                                        cellpadding="0"
+                                        cellspacing="0" border="0" style="padding: 0 20px;">
+                                        <tbody>
+                                            <tr>
+                                                <td valign="top" height="19"
+                                                    class="height"></td>
+
+                                            </tr>
+                                            <tr>
+                                                <td width="100%" valign="top"
+                                                    style="font-family: Dacia Block, Arial !important;font-size:22px;color:#000000;line-height:26px;font-weight: 700;">
+                                                    NOUVEAU <br/><span style="color: #646b52;">MOTEUR</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="top" height="14"
+                                                    class="height"></td>
+
+                                            </tr>
+                                            <tr>
+                                                <td width="100%" valign="top"
+                                                    style="font-family: Read, Arial !important;font-size:16px;color:#333333;line-height:20px;">
+                                                    48kW, 65 ch. Concrètement ? <br/>C’est un moteur plus robuste, <br/>un meilleur démarrage, <br/> plus de polyvalence… <br/>bref plus de fun au volant !
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="top" height="14"
+                                                    class="height"></td>
+
+                                            </tr>
+                                            <tr>
+                                                <td width="100%" valign="top" align="left"
+                                                   style="font-family: Read, Arial;font-size:16px;line-height:20px;">
+
+
+                                                  
+                                                   <table cellpadding="0" cellmargin="0" align="center"
+                                                      border="0" height="50" width="220"
+                                                      style="border-collapse: collapse; border: none !important; "
+                                                      class="btn1">
+                                                     
+                                                      <tbody>
+                                                         <tr>
+
+                                                            <td bgcolor="#ffffff"
+                                                               valign="middle"
+                                                               align="center" height="50" style="border: 2px solid #646b52;">
+                                                               
+                                                               <div
+                                                                  style="font-size: 16px; color: #646b52; line-height: 20px; margin: 0; padding: 0; ">
+                                                                  <a href="https://www.dacia.fr/"
+                                                                     target="_blank"
+                                                                     style="text-decoration:none !important;  color: #646b52; border: 0;outline: none!important;font-family: Read, Arial; font-weight: bold;" border="0">
+                                                                     <span class="blank"
+                                                                        style="text-decoration:none !important;">DÉCOUVRIR</span></a>
+                                                               </div>
+                                                            </td>
+                                                         </tr>
+                                                      </tbody>
+                                                   </table>
+
+                                                </td>
+                                             </tr>
+                                            <tr>
+                                                <td valign="top" height="19"
+                                                    class="height"></td>
+
+                                            </tr>
+                                           
+                                        </tbody>
+                                    </table>
+                                </td>
+                                
+                               
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <!-- 2nd section ending -->
+            <tr>
+                <td valign="top" height="30"
+                    class="height"></td>
+
+            </tr> 
+            <!-- 3rd section starting -->
+            <tr style="background-color: #646b52;"
+            bgcolor="#646b52">
+            <td valign="top" width="100%">
+                <table width="100%" cellspacing="0"
+                    cellpadding="0" border="0"
+                    style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+                    <tbody>
+                        <tr>
+                            <td valign="middle" width="50%" 
+                                align="left" class="em_clear">
+                                <table width="100%"
+                                    cellpadding="0"
+                                    cellspacing="0" border="0" >
+                                    <tbody>
+                                        <tr>
+                                            <td valign="top" height="25"
+                                                class="height"></td>
+
+                                        </tr>
+                                        <tr>
+                                            <td width="100%" valign="top"
+                                                style="font-family: Dacia Block, Arial !important;font-size:24px;color:#ffffff;line-height:28px;font-weight: 700;text-align: center;">
+                                                NOUVELLE <br/>DACIA SPRING
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="top" height="8"
+                                                class="height"></td>
+
+                                        </tr>
+                                        <tr>
+                                            <td width="100%" valign="top"
+                                                style="font-family: Dacia Block, Arial !important;font-size:24px;color:#ffffff;line-height:36px;font-weight: 700;text-align: center;">
+                                                <span style="font-weight: 400;font-family: Read;">À partir de</span> <span style="font-size: 32px;">5€/jour</span>
+                                            </td>
+                                        </tr>
+                                       
+                                        <tr>
+                                            <td valign="top" height="25"
+                                                class="height"></td>
+
+                                        </tr>
+                                       
+                                    </tbody>
+                                </table>
+                            </td>
+                        
+                        
+                            <td valign="middle" width="50%" 
+                                align="left" class="em_clear">
+                                <table width="100%"
+                                    cellpadding="0"
+                                    cellspacing="0" border="0" >
+                                    <tbody>
+                                        <tr>
+                                            <td valign="top" height="25"
+                                                class="height"></td>
+
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td width="100%" valign="top"
+                                                style="font-family: Read, Arial !important;font-size:16px;color:#ffffff;line-height:20px;text-align: center;">
+                                                soit 150€/mois<span style="font-size:10px;line-height:11px; vertical-align:7px;">(2)</span>,<br/> LLD 49 mois sans apport,<br/> 4 ans d’entretien inclus<span style="font-size:10px;line-height:11px; vertical-align:7px;">(6)</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="top" height="16"
+                                                class="height"></td>
+
+                                        </tr>
+                                        <tr>
+                                            <td width="100%" valign="top" align="left"
+                                               style="font-family: Read, Arial;font-size:16px;line-height:20px;">
+
+
+                                              
+                                               <table cellpadding="0" cellmargin="0" align="center"
+                                                  border="0" height="50" width="240"
+                                                  style="border-collapse: collapse; border: none !important; "
+                                                  class="btn1">
+                                                 
+                                                  <tbody>
+                                                     <tr>
+
+                                                        <td bgcolor="#ffffff"
+                                                           valign="middle"
+                                                           align="center" height="50" >
+                                                           
+                                                           <div
+                                                              style="font-size: 16px; color: #646b52; line-height: 20px; margin: 0; padding: 0; ">
+                                                              <a href="https://www.dacia.fr/"
+                                                                 target="_blank"
+                                                                 style="text-decoration:none !important;  color: #646b52; border: 0;outline: none!important;font-family: Read, Arial; font-weight: bold;" border="0">
+                                                                 <span class="blank"
+                                                                    style="text-decoration:none !important;">PROFITER DE L’OFFRE</span></a>
+                                                           </div>
+                                                        </td>
+                                                     </tr>
+                                                  </tbody>
+                                               </table>
+
+                                            </td>
+                                         </tr>
+                                        <tr>
+                                            <td valign="top" height="25"
+                                                class="height"></td>
+
+                                        </tr>
+                                       
+                                    </tbody>
+                                </table>
+                            </td>
+                            
+                           
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+             <!-- 3rd section ending -->
+             <tr>
+                <td valign="top" height="30"
+                    class="height"></td>
+
+            </tr>
+            <!-- 4th section starting -->
+            <tr style="background-color: #f2f2f2;"
+            bgcolor="#f2f2f2">
+            <td valign="top" width="100%">
+                <table width="100%" cellspacing="0"
+                    cellpadding="0" border="0"
+                    style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+                    <tbody>
+                        <tr>
+                            <td valign="middle" width="50%"
+                            align="center" class="em_clear"
+                            style="">
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#f2f2f2"
+style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;background-color: #f2f2f2;">
+<tbody>
+    <tr>
+        <td valign="top" height="5"
+            class="height"></td>
+
+    </tr>
+<tr>
+<td align="center" valign="middle" ><a href="#" target="_blank"
+style="border: none;text-decoration: none; display:inline-block;outline:none!important;"><img
+src="images/uspd.gif" alt="" width="100%"
+style="border:0;display:block;outline:none;text-decoration:none;width: 100%;"
+class="image-width1"></a></td>
+</tr>
+<tr>
+    <td valign="top" height="5"
+        class="height"></td>
+
+</tr>
+
+</tbody>
+</table>
+                           
+                        </td> 
+                        
+                        
+                            <td valign="middle" width="50%" bgcolor="#f2f2f2"
+                                align="left" class="em_clear">
+                                <table width="100%"
+                                    cellpadding="0"
+                                    cellspacing="0" border="0" style="padding: 0 20px;">
+                                    <tbody>
+                                        <tr>
+                                            <td valign="top" height="19"
+                                                class="height"></td>
+
+                                        </tr>
+                                        <tr>
+                                            <td width="100%" valign="top"
+                                                style="font-family: Dacia Block, Arial !important;font-size:22px;color:#000000;line-height:26px;font-weight: 700;">
+                                                UNE VOITURE <br/>FAITE POUR VOUS 
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="top" height="14"
+                                                class="height"></td>
+
+                                        </tr>
+                                        <tr>
+                                            <td width="100%" valign="top"
+                                                style="font-family: Read, Arial !important;font-size:16px;color:#333333;line-height:20px;">
+                                                Nouvelle Dacia Spring vous simplifie le quotidien avec son autonomie rassurante et sa recharge rapide ! Voyez par vous-même avec notre simulateur d’autonomie : passer à l’électrique n’a jamais été aussi simple.
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="top" height="14"
+                                                class="height"></td>
+
+                                        </tr>
+                                        <tr>
+                                            <td width="100%" valign="top" align="left"
+                                               style="font-family: Read, Arial;font-size:16px;line-height:20px;">
+
+
+                                              
+                                               <table cellpadding="0" cellmargin="0" align="center"
+                                                  border="0" height="50" width="240"
+                                                  style="border-collapse: collapse; border: none !important; "
+                                                  class="btn1">
+                                                 
+                                                  <tbody>
+                                                     <tr>
+
+                                                        <td bgcolor="#ffffff"
+                                                           valign="middle"
+                                                           align="center" height="50" style="border: 2px solid #646b52;">
+                                                           
+                                                           <div
+                                                              style="font-size: 16px; color: #646b52; line-height: 20px; margin: 0; padding: 0; ">
+                                                              <a href="https://www.dacia.fr/"
+                                                                 target="_blank"
+                                                                 style="text-decoration:none !important;  color: #646b52; border: 0;outline: none!important;font-family: Read, Arial; font-weight: bold;" border="0">
+                                                                 <span class="blank"
+                                                                    style="text-decoration:none !important;">EN SAVOIR PLUS</span></a>
+                                                           </div>
+                                                        </td>
+                                                     </tr>
+                                                  </tbody>
+                                               </table>
+
+                                            </td>
+                                         </tr>
+                                        <tr>
+                                            <td valign="top" height="19"
+                                                class="height"></td>
+
+                                        </tr>
+                                       
+                                    </tbody>
+                                </table>
+                            </td>
+                            
+                           
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+             <!-- 4th section ending -->
+             <tr>
+                <td valign="top" height="30"
+                    class="height"></td>
+
+            </tr>
+             <!-- 5th section starting -->
+              
+            <tr >
+            <td valign="top" width="100%" style="background-color: #646b52;padding: 20px 0;" bgcolor="#646b52">
+                <table width="100%" cellspacing="0"
+                    cellpadding="0" border="0"
+                    style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+                    <tbody>
+                        <tr>
+                            <td valign="middle" width="15%"
+                            align="center" class="em_clear"
+                            style="">
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0" 
+style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+<tbody>
+      
+<tr>
+<td align="center" valign="middle" ><a href="#" target="_blank"
+style="border: none;text-decoration: none; display:inline-block;outline:none!important;"><img
+src="images/timer.png" alt="" width="100%"
+style="border:0;display:block;outline:none;text-decoration:none;width: 100%;"
+class="image-width1"></a></td>
+</tr>
+
+  
+</tbody>
+</table>
+                           
+                        </td>
+                        
+                        
+                            <td valign="middle" width="70%" 
+                                align="left" class="em_clear">
+                                <table width="100%"
+                                    cellpadding="0"
+                                    cellspacing="0" border="0" >
+                                    <tbody>
+                                        <tr>
+                                            <td valign="top" height="20"
+                                                class="height"></td>
+
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td width="100%" valign="top"
+                                                style="font-family: Read, Arial !important;font-size:16px;color:#ffffff;line-height:20px;text-align: center;">
+                                                
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="100%" valign="top"
+                                                style="font-family: Dacia Block, Arial !important;font-size:24px;color:#ffffff;line-height:28px;font-weight: 400;text-align: center;">
+                                                FAITES ESTIMER LA VALEUR DE VOTRE VÉHICULE 
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="100%" valign="top"
+                                                style="font-family: Dacia Block, Arial !important;font-size:24px;color:#ffffff;line-height:28px;font-weight: 700;text-align: center;">
+                                                 EN MOINS DE 3 MINUTES !
+                                            </td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td valign="top" height="20"
+                                                class="height"></td>
+
+                                        </tr>
+                                       
+                                    </tbody>
+                                </table>
+                            </td>
+                            <td valign="middle" width="15%"
+                            align="center" class="em_clear"
+                            style="">
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0" 
+style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+<tbody>
+    
+<tr>
+<td align="center" valign="middle" ><a href="#" target="_blank"
+style="border: none;text-decoration: none; display:inline-block;outline:none!important;"><img
+src="images/arrow.png" alt="" width="100%"
+style="border:0;display:block;outline:none;text-decoration:none;width: 100%;"
+class="image-width1"></a></td>
+</tr>
+
+
+</tbody>
+</table>
+                           
+                        </td>
+                           
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+             
+              <!-- 5th section ending -->
+              <tr>
+                <td valign="top" height="30"
+                    class="height"></td>
+
+            </tr>
+            <!-- 6th section starting -->
+            
+            <tr >
+                <td valign="top" width="100%" style="background-color: #f2f2f2;" bgcolor="#f2f2f2">
+                    <table width="100%" cellspacing="0"
+                        cellpadding="0" border="0"
+                        style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+                        <tbody>
+                            <tr>
+                                <td valign="top" height="30"
+                                    class="height"></td>
+                
+                            </tr>
+                            <tr>
+                                <td width="100%" valign="top"
+                                style="font-family: Dacia Block, Arial !important;font-size:32px;color:#646b52;line-height:36px;font-weight: 700;text-align: center;">
+                                RESTONS EN CONTACT 
+                            </td> 
+                            </tr>
+                            <tr>
+                                <td valign="top" height="10"
+                                    class="height"></td>
+                
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr >
+                <td valign="top" width="100%" style="background-color: #f2f2f2;padding: 20px 0 30px 0;" bgcolor="#f2f2f2">
+                    <table width="100%" cellspacing="0"
+                        cellpadding="0" border="0"
+                        style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+                        <tbody>
+                            <tr>
+                                <td valign="middle" width="33%"
+                                align="center" class="em_clear"
+                                style="">
+                                <table width="100%" cellspacing="0" cellpadding="0" border="0" 
+    style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+    <tbody>
+          
+    <tr>
+    <td align="center" valign="middle" ><a href="#" target="_blank"
+    style="border: none;text-decoration: none; display:inline-block;outline:none!important;"><img
+    src="images/Icon_question.png" alt="" width="100%"
+    style="border:0;display:block;outline:none;text-decoration:none;width: 100%;"
+    class="image-width1"></a></td>
+    </tr>
+    <tr>
+        <td valign="top" height="20"
+            class="height"></td>
+
+    </tr>
+    <tr>
+        <td width="100%" valign="top" class="padbot"
+            style="font-family: Dacia Block, Arial !important;font-size:24px;color:#000000;line-height:28px;font-weight: 700;text-align: center;">
+            UNE <br/>QUESTION ? 
+        </td>
+    </tr>
+      
+    </tbody>
+    </table>
+ </td>
+ <td valign="middle" width="33%"
+ align="center" class="em_clear"
+ style="">
+ <table width="100%" cellspacing="0" cellpadding="0" border="0" 
+style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+<tbody>
+
+<tr>
+<td align="center" valign="middle" ><a href="#" target="_blank"
+style="border: none;text-decoration: none; display:inline-block;outline:none!important;"><img
+src="images/Icon_person.png" alt="" width="100%"
+style="border:0;display:block;outline:none;text-decoration:none;width: 100%;"
+class="image-width1"></a></td>
+</tr>
+<tr>
+<td valign="top" height="20"
+class="height"></td>
+
+</tr>
+<tr>
+<td width="100%" valign="top"
+style="font-family: Dacia Block, Arial !important;font-size:24px;color:#000000;line-height:28px;font-weight: 700;text-align: center;">
+MY DACIA <br/>&#8203; 
+</td>
+</tr>
+
+</tbody>
+</table>
+</td>
+<td valign="middle" width="33%"
+align="center" class="em_clear"
+style="">
+<table width="100%" cellspacing="0" cellpadding="0" border="0" 
+style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+<tbody>
+
+<tr>
+<td align="center" valign="middle" ><a href="#" target="_blank"
+style="border: none;text-decoration: none; display:inline-block;outline:none!important;"><img
+src="images/Icon_contact.png" alt="" width="100%"
+style="border:0;display:block;outline:none;text-decoration:none;width: 100%;"
+class="image-width1"></a></td>
+</tr>
+<tr>
+<td valign="top" height="20"
+class="height"></td>
+
+</tr>
+<tr>
+<td width="100%" valign="top"
+style="font-family: Dacia Block, Arial !important;font-size:24px;color:#000000;line-height:28px;font-weight: 700;text-align: center;">
+NOUS <br/>CONTACTER
+</td>
+</tr>
+
+</tbody>
+</table>
+</td>
+                               
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+             <!-- 6th section ending -->
+
+             <!-- 7th section starting -->
+             <tr >
+                <td valign="top" width="100%" style="background-color: #4e4a4a;" bgcolor="#4e4a4a">
+                    <table width="100%" cellspacing="0"
+                        cellpadding="0" border="0"
+                        style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+                        <tbody>
+                            <tr>
+                                <td valign="top" height="25"
+                                    class="height"></td>
+                
+                            </tr>
+                            <tr>
+                                <td width="100%" valign="top"
+                                style="font-family: Read, Arial !important;font-size:16px;color:#ffffff;line-height:20px;font-weight: 400;text-align: center;">
+                                Au quotidien, prenez les transports en commun #SeDéplacerMoinsPolluer
+                            </td> 
+                            </tr>
+                            <tr>
+                                <td valign="top" height="25"
+                                    class="height"></td>
+                
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr >
+                <td valign="top" width="100%" style="background-color: #646b52;" bgcolor="#646b52">
+                    <table width="100%" cellspacing="0"
+                        cellpadding="0" border="0"
+                        style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+                        <tbody>
+                            <tr>
+                                <td valign="top" height="25"
+                                    class="height"></td>
+                
+                            </tr>
+                            <tr>
+                                <td width="100%" valign="top"
+                                style="font-family: Dacia Block, Arial !important;font-size:20px;color:#ffffff;line-height:24px;font-weight: 700;text-align: center;">
+                                DACIA SOCIAL
+                            </td> 
+                            </tr>
+                            <tr>
+                                <td valign="top" height="15"
+                                    class="height"></td>
+                
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" width="100%" bgcolor="#646b52">
+                   <table width="100%" cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;color: #333333" >
+                      <tbody>
+                         <tr>
+                            <td valign="top" width="33%"  class="table_icon">
+                            </td>
+                            <td valign="top" width="34%"  class="table_icon_new">
+                               <table width="100%" cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;" >
+                                  <tbody>
+                                     <tr>
+                                        <td width="100%" valign="top" >
+                                           <table width="100%" border="0" cellspacing="0" cellpadding="0" class="table_full"  style="color: #333333">
+                                              <tbody>
+                                                 <tr>
+                                                    <td width="100%" valign="top" >
+                                                       <table width="100%" border="0" cellspacing="0" cellpadding="0"  style="color: #333333">
+                                                          <tbody>
+                                                             <!-- Footer Starts Here -->
+                                                             <tr>
+                                                                <td class="table-full icon_logo" valign="top" style="color:#000000;font-size:14px;line-height:1.4;text-align: center;">
+                                                                   <a href="#" target="_blank" style="color: #000000; text-decoration: none">
+                                                                   <img src="images/icon_facebook.png" width="16" style="display: inline-block !important; width: 16px; vertical-align: bottom;outline: none;" alt="Facebook">
+                                                                   </a>&nbsp;&nbsp;&nbsp; <a href="#" target="_blank" style="color: #000000; text-decoration: none">
+                                                                   <img src="images/icon_twitter.png" width="25" style="display: inline-block !important; width: 25px; vertical-align: bottom;outline: none;" alt="Twitter"></a>&nbsp;&nbsp;&nbsp;<a href="#" target="_blank" style="color: #000000; text-decoration: none">
+                                                                   <img src="images/Icon_youtube.png" width="25" style="display: inline-block !important; width: 25px; vertical-align: bottom;outline: none;" alt="Linkedin"></a>
+                                                                   &nbsp;&nbsp;&nbsp;<a href="#" target="_blank" style="color: #000000; text-decoration: none">
+                                                                   <img src="images/Icon_instagram.png" width="23" style="display: inline-block !important; width: 23px; vertical-align: bottom;outline: none;" alt="Linkedin"></a>
+                                                                </td>
+                                                             </tr>
+                                                             <tr>
+                                                                <td width="100%" height="20" valign="top"></td>
+                                                             </tr>
+                                                             <!-- Footer Ends Here -->
+                                                          </tbody>
+                                                       </table>
+                                                    </td>
+                                                 </tr>
+                                              </tbody>
+                                           </table>
+                                        </td>
+                                     </tr>
+                                  </tbody>
+                               </table>
+                            </td>
+                            <td valign="top" width="33%"  class="table_icon">
+                            </td>
+                         </tr>
+                      </tbody>
+                   </table>
+                </td>
+             </tr>
+              <!-- 7th section ending -->
+
+              <!-- 8th section starting -->
+              <tr >
+                <td valign="top" width="100%" style="background-color: #f2f2f2;padding: 20px 0 5px 0;" bgcolor="#f2f2f2">
+                    <table width="100%" cellspacing="0"
+                        cellpadding="0" border="0"
+                        style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+                        <tbody>
+                            <tr>
+                                <td valign="middle" width="26%"
+                                align="center" class="em_clear"
+                                style="">
+                                <table width="100%" cellspacing="0" cellpadding="0" border="0" 
+    style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+    <tbody>
+          
+    <tr>
+    <td align="center" valign="middle" ><a href="#" target="_blank"
+    style="border: none;text-decoration: none; display:inline-block;outline:none!important;"><img
+    src="images/Etiquette.png" alt="" width="100%"
+    style="border:0;display:block;outline:none;text-decoration:none;width: 100%;"
+    class="image-width1"></a></td>
+    </tr>
+    
+      
+    </tbody>
+    </table>
+                               
+                            </td>
+                            
+                            
+                                <td valign="middle" width="71%" 
+                                    align="left" class="em_clear ">
+                                    <table width="100%"
+                                        cellpadding="0"
+                                        cellspacing="0" border="0" >
+                                        <tbody>
+                                            <tr>
+                                                <td valign="top" height="20"
+                                                    class="height"></td>
+    
+                                            </tr>
+                                            
+                                           
+                                            <tr>
+                                                <td width="100%" valign="top" class="padmob"
+                                                    style="font-family: Read, Arial !important;font-size:14px;color:#000000;line-height:18px;font-weight: 700;">
+                                                    Modèle présenté : Nouvelle Dacia Spring Extreme avec option peinture opaque bleu ardoise à 6,66€/jour, soit 200€/mois<span style="font-size:9px;line-height:11px; vertical-align:7px;">(4)</span> - LLD 49 mois, 1<span style="font-size:9px;line-height:11px; vertical-align:7px;">er</span> loyer de 7 500€, ramené à 0€ après déduction de 5 000€ de bonus écologique<span style="font-size:9px;line-height:11px; vertical-align:7px;">(5)</span> et de 2 500€ de prime à la conversion<span style="font-size:9px;line-height:11px; vertical-align:7px;">(3)</span>, 4 ans d’entretien inclus<span style="font-size:9px;line-height:11px; vertical-align:7px;">(6)</span>. 
+                                                </td>
+                                            </tr>
+                                            
+                                            
+                                            <tr>
+                                                <td valign="top" height="20"
+                                                    class="height"></td>
+    
+                                            </tr>
+                                           
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <td valign="middle" width="3%"
+                                align="center" class="em_clear"
+                                style="">
+                                  </td>
+                               
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+               <!-- 8th section ending -->
+                                                    <tr style="background-color: #f2f2f2;" bgcolor="#f2f2f2">
+                                                        <td style="background-color: #f2f2f2;" bgcolor="#f2f2f2"
+                                                            width="100%" valign="top">
+                                                            <table width="100%" cellspacing="0" cellpadding="0"
+                                                                border="0" 
+                                                                style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+                                                                <tbody >
+                                                                    <tr >
+                                                                        <td width="3%" valign="top">
+                                                                            &nbsp;
+
+                                                                        </td>
+                                                                        <td width="94%" valign="top">
+                                                                            <table width="100%" cellspacing="0"
+                                                                                cellpadding="0" border="0"
+                                                                                style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td valign="top" height="20"
+                                                                                            class="height"></td>
+
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td width="100%" valign="top"
+                                                                                            style="font-family: Read, Arial !important;font-size:14px;color:#000000;line-height:1.4;">
+                                                                                            *style extérieur
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td valign="top" height="20"
+                                                                                            class="height"></td>
+
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td width="100%" valign="top"
+                                                                                            style="font-family: Read, Arial !important;font-size:14px;color:#000000;line-height:1.4;">
+                                                                                            (1) Jusqu’à 305 km d’autonomie en cycle urbain** WLTP, selon version et équipements.
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td valign="top" height="10"
+                                                                                            class="height"></td>
+
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td width="100%" valign="top"
+                                                                                            style="font-family: Read, Arial !important;font-size:14px;color:#000000;line-height:1.4;">
+                                                                                            Détail du cycle urbain : **le cycle urbain WLTP correspond à la partie urbaine du cycle normalisé. Le cycle complet WLTP est le cycle normalisé. Il se compose de 52% de trajets urbains et 48% de trajets extra-urbains (périurbains et autoroute).
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td valign="top" height="10"
+                                                                                            class="height"></td>
+
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td width="100%" valign="top"
+                                                                                            style="font-family: Read, Arial !important;font-size:14px;color:#000000;line-height:1.4;">
+                                                                                            (2) Exemple pour Nouvelle Dacia Spring Essential neuve avec option peinture opaque bleu ardoise. 1<span style="font-size:9px;line-height:11px; vertical-align:7px;">er</span> loyer de 7 500€ ramené à 0€ après déduction de 5 000€ de bonus écologique<span style="font-size:9px;line-height:11px; vertical-align:7px;">(5)</span>, correspondant à 27% du coût d’acquisition du véhicule TTC, et de 2 500€ de prime à la conversion<span style="font-size:9px;line-height:11px; vertical-align:7px;">(3)</span>, puis 48 loyers de 150€/mois quel que soit le nombre de jours par mois (soit 5€ par jour pour un mois de 30 jours).
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td valign="top" height="10"
+                                                                                            class="height"></td>
+
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td width="100%" valign="top"
+                                                                                            style="font-family: Read, Arial !important;font-size:14px;color:#000000;line-height:1.4;">
+                                                                                            (2)(4) Le cas échéant, loyer à l’arrondi supérieur. Locations longue durée, hors assurances facultatives, sur 49 mois pour un kilométrage maximum de 40 000 km. Sous réserve d’étude et d’acceptation par DIAC agissant sous la marque commerciale Mobilize Financial Services, SA au capital de 415 100 500€ - Siège social : 14 avenue du Pavé Neuf 93160 Noisy-le-Grand SIREN 702 002 221 RCS Bobigny
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td valign="top" height="10"
+                                                                                            class="height"></td>
+
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td width="100%" valign="top"
+                                                                                            style="font-family: Read, Arial !important;font-size:14px;color:#000000;line-height:1.4;">
+                                                                                            En fin de contrat, restitution du véhicule chez votre concessionnaire avec paiement des frais de remise à l’état standard et des kilomètres supplémentaires.
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td valign="top" height="10"
+                                                                                            class="height"></td>
+
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td width="100%" valign="top"
+                                                                                            style="font-family: Read, Arial !important;font-size:14px;color:#000000;line-height:1.4;">
+                                                                                            (3) Déduction faite de la prime à la conversion de 2 500€ sous condition de mise au rebut d’un véhicule particulier ou camionnette diesel mis en circulation avant 2011 ou essence mis en circulation avant 2006 (selon décret n°2022-1761 du 30 décembre 2022) et d’éligibilité, voir détails sur <a href="https://www.primealaconversion.gouv.fr/" style="color:#000000;" target="_blank">www.primealaconversion.gouv.fr</a>.
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td valign="top" height="10"
+                                                                                            class="height"></td>
+
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td width="100%" valign="top"
+                                                                                            style="font-family: Read, Arial !important;font-size:14px;color:#000000;line-height:1.4;">
+                                                                                            (5) Bonus écologique fixé à 27% du coût d’acquisition TTC du véhicule électrique neuf dans la limite de 5 000€ (selon décret n°2022-1761 du 30 décembre 2022). En vigueur jusqu’au 31 décembre 2023. Conditions disponibles sur le site <a href="https://www.service-public.fr/" style="color:#000000;" target="_blank">www.service-public.fr</a>.
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td valign="top" height="10"
+                                                                                            class="height"></td>
+
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td width="100%" valign="top"
+                                                                                            style="font-family: Read, Arial !important;font-size:14px;color:#000000;line-height:1.4;">
+                                                                                            (6) Entretien Dacia inclus dans le loyer pour 12€/mois comprenant la révision, le remplacement des filtres et l’ensemble des opérations prévues dans le programme d’entretien selon conditions contractuelles sur 49 mois jusqu’à 60 000 km (au 1er des 2 termes atteint). Voir détail de l’entretien en point de vente et sur <a href="https://dacia.fr/" style="color:#000000;" target="_blank">dacia.fr</a>. Le contrat de LLD peut être souscrit sans contrat d’entretien. 
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td valign="top" height="10"
+                                                                                            class="height"></td>
+
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td width="100%" valign="top"
+                                                                                            style="font-family: Read, Arial !important;font-size:14px;color:#000000;line-height:1.4;text-decoration: underline;">
+                                                                                            Offres non cumulables, réservées aux particuliers et valables dans le réseau Dacia participant pour toute commande d’une Nouvelle Dacia Spring neuve du 1er au 28 février 2023. Voir conditions en points de vente et sur <a href="https://dacia.fr/" style="color:#000000;" target="_blank">dacia.fr</a>.  
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td valign="top" height="10"
+                                                                                            class="height"></td>
+
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td width="100%" valign="top"
+                                                                                            style="font-family: Read, Arial !important;font-size:14px;color:#000000;line-height:1.4;font-weight: bold;">
+                                                                                            Gamme Dacia Nouvelle Spring : Consommations homologuées en cycle urbain (Wh/km) : 102. Émissions de CO<sub>2</sub> : 0 lors du roulage, hors pièces d’usure.
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td valign="top" height="10"
+                                                                                            class="height"></td>
+
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td width="100%" valign="top"
+                                                                                            style="font-family: Read, Arial !important;font-size:14px;color:#000000;line-height:1.4;">
+                                                                                            Renault s.a.s. société par actions simplifiée au capital de 533 941 113 € / 122-122 bis avenue du Général Leclerc – 92 100 Boulogne-Billancourt - R.C.S. Nanterre B 780 129 987
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td valign="top" height="10"
+                                                                                            class="height"></td>
+
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td width="100%" valign="top"
+                                                                                            style="font-family: Read, Arial !important;font-size:14px;color:#000000;line-height:1.4;">
+                                                                                            Si vous souhaitez vous désabonner afin de ne plus recevoir d’offres personnalisées de la part de Renault SAS et des membres de son réseau commercial <a href="https://www.dacia.fr/" style="color:#000000;" target="_blank">cliquez-ici</a>.
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td valign="top" height="10"
+                                                                                            class="height"></td>
+
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td width="100%" valign="top"
+                                                                                            style="font-family: Read, Arial !important;font-size:14px;color:#000000;line-height:1.4;">
+                                                                                            Si vous ne souhaitez pas que vos offres soient personnalisées, <a href="https://www.dacia.fr/" style="color:#000000;" target="_blank">cliquez-ici</a>.
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td valign="top" height="20"
+                                                                                            class="height"></td>
+
+                                                                                    </tr>
+                                                                    </tr>
+
+                                                                </tbody>
+                                                            </table>
+
+                                                        </td>
+                                                        <td width="3%" valign="top">
+                                                            &nbsp;
+
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                   
+                                    
+                                     <tr>
+                                        <td valign="top" height="5">
+                                        </td>
+                                     </tr>
+                                </tbody>
+                                <!-- banner ends here ............................................-->
+
+                            </table>
+
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            </td>
+            </tr>
+            </tbody>
+
+            </table>
+            <!-- main table ends here -->
+           
+        </div>
+    </div>
+
+</body>
+
+</html>
